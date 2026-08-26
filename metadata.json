@@ -1,0 +1,5 @@
+{
+  "name": "Excel Header Normalizer",
+  "description": "A client-side tool to convert Excel spreadsheets to CSV with normalized, database-friendly headers (lowercase, snake_case, no accents).",
+  "requestFramePermissions": []
+}
