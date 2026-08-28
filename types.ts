@@ -1,4 +1,7 @@
+export type NamingConvention = 'snake_case' | 'camelCase' | 'PascalCase' | 'kebab-case' | 'UPPER_SNAKE';
+
 export interface ProcessedData {
+  originalHeaders: string[];
   headers: string[];
   rows: any[][];
   fileName: string;
